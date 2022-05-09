@@ -16,5 +16,7 @@
     "remoteEnv": {
         "ARM_TENANT_ID": "",
         "ARM_SUBSCRIPTION_ID": ""
-    }
+    },
+    "runArgs": ["--userns=keep-id"],
+    "containerUser": "vscode" // the value needs to match the value of "remoteUser"
 }
